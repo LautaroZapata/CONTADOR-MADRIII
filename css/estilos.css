@@ -201,6 +201,7 @@ main {
 	animation: titac 25s infinite linear;
 	box-shadow: 0px 0px 10px black;
 	margin: 50px;
+	height: 100px;
 }
 
   @keyframes titac {
@@ -219,6 +220,7 @@ main {
 	animation: juicy 25s infinite linear;
 	box-shadow: 0px 0px 10px black;
 	margin: 50px;
+	height: 100px;
 }
 
   @keyframes juicy {
@@ -237,6 +239,7 @@ main {
 	animation: mate 25s infinite linear;
 	box-shadow: 0px 0px 10px black;
 	margin: 50px;
+	height: 100px;
 }
 
   @keyframes mate {
