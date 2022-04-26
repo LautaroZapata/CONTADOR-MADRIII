@@ -5,7 +5,7 @@
 }
 
 body {
-	background: #EFEFEF;
+	background: rgb(255, 171, 126);
 	color: #363639;
     font-family: 'Work Sans', sans-serif;
 }
@@ -15,8 +15,7 @@ body {
 /* ? ----- PORTADA ----- */
 .portada {
 	width: 100%;
-	background: #EFEFEF;
-
+	background: rgb(255, 171, 126);
 	min-height: 100vh;
 	position: fixed;
 	top: 0;
@@ -41,10 +40,10 @@ body {
 	letter-spacing: 3px;
 }
 
-.portada .header .logotipo {
+.logotipo {
 	font-size: 50px;
 	font-size: 900;
-	background: linear-gradient(90deg, red, yellow);
+	background: linear-gradient(-110deg, red, rgb(246, 255, 0), red);
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
 	margin-bottom: 20px;
@@ -53,6 +52,7 @@ body {
 .portada .header .mensaje {
 	font-size: 30px;
 	font-weight: 600;
+	color: black;
 }
 
 
@@ -66,6 +66,7 @@ main {
 	font-size: 18px;
 	line-height: 28px;
 	text-align: left;
+
 }
 
 
@@ -102,12 +103,77 @@ main {
 
 /* ? ---------------------------- */
 
+	/* BOTONES */
+	.divimgbtn{
+		display: flex;
+		align-items: center;
+	}
+
+	.botondiv {
+		height: 80px; 
+		width: 80px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	input[type="checkbox"] {
+		-webkit-appearance: none;
+		display: none;
+	}
+	.spannashe {
+		position: relative;
+		display: block;
+		width: 40px;
+		height: 20px;
+		background-color: #000;
+		cursor: pointer;
+		border-radius: 20px;
+		overflow: hidden;
+		transition: ease-in 0.5s;
+	}
+	input[type=checkbox]:checked ~ .spannashe  {
+		background-color: #000;
+		box-shadow: 0 0 0 1500px rgb(36, 0, 56);
+	}
+	.spannashe:before {
+		content: '';
+		position: absolute;
+		top: 2px;
+		left: 2px;
+		background-color: #fff;
+		height: 16px;
+		width: 16px;
+		border-radius: 50%;
+		transition: 0.5s;
+	}
+
+	input[type=checkbox]:checked ~ .spannashe:before {
+		transform: translateX(20px);
+	}
+	
+	.spannashe:after {
+		content: '';
+		position: absolute;
+		top: 2px;
+		left: 2px;
+		background-color: #fff;
+		height: 16px;
+		width: 16px;
+		border-radius: 50%;
+		transition: 0.5s;
+		transform: translateX(-20px);
+	}
+
+	input[type=checkbox]:checked ~ .spannashe:after {
+		transform: translateX(-25px);
+	}
+	
 
 
 @media (max-width:500px) {
 	.portada {
 		width: 100%;
-		background: #EFEFEF;
+		background: (-110deg, red, rgb(246, 255, 0), red);
 	
 		min-height: 100vh;
 		position: fixed;
