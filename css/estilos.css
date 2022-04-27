@@ -265,6 +265,10 @@ body {
 
 
 @media (max-width:500px) {
+	body {
+		height: 100%;
+		width: 100%;
+	}
 	#portada {
 		background-image: url("../avion.PNG");
 		background-repeat: no-repeat;
