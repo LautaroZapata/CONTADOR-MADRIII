@@ -9,16 +9,17 @@
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,600,700,900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/estilos.css">
 	<link rel="stylesheet" href="css/light.css" class='theme'>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<script src="https://kit.fontawesome.com/c8e74de81a.js" crossorigin="anonymous"></script>
 
-	
+
 
 
 </head>
 
 <body>
-	
+
 	<div class="portada" id="portada">
 		<div class="divimgbtn">
 			<i class="fa-solid fa-sun icono"></i>
@@ -27,7 +28,7 @@
 				<span class="slider round"></span>
 			</label>
 			<i class="fa-solid fa-moon icono"></i>
-	</div>
+		</div>
 		<div class="header">
 			<h1 class="logotipo">ESPAÑA</h1>
 			<p class="mensaje">CONTADOR ASHE</p>
@@ -37,18 +38,53 @@
 		<div class="pjs">
 			<div class="divmenor">
 				<img src="menor.jpeg" class="menor">
-				<img src="juicy.jpeg" class="juicy"  >
-				<img src="titac.jpeg" class="titac"  >
-				<img src="mate.jpeg" class="mate" >
+				<img src="juicy.jpeg" class="juicy">
+				<img src="titac.jpeg" class="titac">
+				<img src="mate.jpeg" class="mate">
+			</div>
+		</div>
+		<div class="card ">
+			<div class="card-body d-flex">
+				<!-- FORM TO ADD TASKS -->
+				<form id="formTask">
+					<div class="form-group d-flex">
+						<input type="text" id="title" placeholder="Añadir tarea" class="form-control">
+					</div>
+					<div class="form-group">
+						<textarea id="description" placeholder="Esribe aquí" cols="60" rows="1"
+							class="form-control"></textarea>
+					</div>
+					<button type="submit" class="btn btn-primary btn-block mt-3">Guardar</button>
+				</form>
+				<div class="align-items-center justify-content-center ms-5">
+					<div id="tasks"></div>
+				</div>
 			</div>
 		</div>
 	</div>
+
+
+	</div>
+
+
+
+
+
+
+
+
+
 	<script src="js/jquery-3.6.0.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+		integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+		integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+		crossorigin="anonymous"></script>
 	<script src="js/simplyCountdown.min.js"></script>
 	<script src="js/countdown.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/task.js"></script>
 
 
 

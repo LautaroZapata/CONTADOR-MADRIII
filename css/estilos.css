@@ -192,7 +192,7 @@ body {
 	background-image: url("../avion.PNG");
 	background-repeat: no-repeat;
 	background-size: 100%;
-	background-position: center;
+	background-position: center ;
 }
 
 
@@ -215,7 +215,6 @@ body {
 	-webkit-background-clip: text;
 	margin-bottom: 20px;
 }
-
 
 
 
@@ -266,6 +265,13 @@ body {
 
 
 @media (max-width:500px) {
+	#portada {
+		background-image: url("../avion.PNG");
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: center ;
+	}
+
 	.portada {
 		width: 100%;
 		background: (-110deg, red, rgb(246, 255, 0), red);
@@ -313,7 +319,80 @@ body {
 		font-size: 15px;
 	}
 }
-
+	/* BOTONES */
+	.divimgbtn {
+		display: flex;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+	
+	.botondiv {
+		height: 80px;
+		width: 80px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.switch {
+		position: relative;
+		display: inline-block;
+		width: 60px;
+		height: 34px;
+	}
+	
+	.switch input {
+		opacity: 0;
+		width: 0;
+		height: 0;
+	}
+	
+	.slider {
+		position: absolute;
+		cursor: pointer;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: #ccc;
+		-webkit-transition: .4s;
+		transition: .4s;
+	}
+	
+	.slider:before {
+		position: absolute;
+		content: "";
+		height: 26px;
+		width: 26px;
+		left: 4px;
+		bottom: 4px;
+		background-color: white;
+		-webkit-transition: .4s;
+		transition: .4s;
+	}
+	
+	input:checked+.slider {
+		background-color: #2196F3;
+	}
+	
+	input:focus+.slider {
+		box-shadow: 0 0 1px #2196F3;
+	}
+	
+	input:checked+.slider:before {
+		-webkit-transform: translateX(26px);
+		-ms-transform: translateX(26px);
+		transform: translateX(26px);
+	}
+	
+	/* Rounded sliders */
+	.slider.round {
+		border-radius: 34px;
+	}
+	
+	.slider.round:before {
+		border-radius: 50%;
+	}
 
 
 
@@ -332,7 +411,7 @@ body {
 	animation: menor 25s infinite linear;
 	box-shadow: 0px 0px 10px black;
 	margin: 10px;
-	height: 100px;
+	height: 85px;
 }
 
 @keyframes menor {
@@ -353,7 +432,7 @@ body {
 	animation: titac 25s infinite linear;
 	box-shadow: 0px 0px 10px black;
 	margin: 10px;
-	height: 100px;
+	height: 85px;
 }
 
 @keyframes titac {
@@ -373,7 +452,7 @@ body {
 	animation: juicy 25s infinite linear;
 	box-shadow: 0px 0px 10px black;
 	margin: 10px;
-	height: 100px;
+	height: 85px;
 }
 
 @keyframes juicy {
@@ -393,7 +472,7 @@ body {
 	animation: mate 25s infinite linear;
 	box-shadow: 0px 0px 10px black;
 	margin: 10px;
-	height: 100px;
+	height: 85px;
 }
 
 @keyframes mate {
@@ -406,4 +485,5 @@ body {
 		-webkit-transform: rotate(360deg);
 		transform: rotate(360deg);
 	}
+
 }
