@@ -1,0 +1,18 @@
+.portada {
+	width: 100%;
+	background: rgb(19, 19, 19);
+	min-height: 100vh;
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.icono {
+    color: #fff;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
