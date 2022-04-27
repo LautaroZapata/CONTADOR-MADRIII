@@ -272,23 +272,6 @@ body {
 		background-position: center ;
 	}
 
-	.portada {
-		width: 100%;
-		background: (-110deg, red, rgb(246, 255, 0), red);
-
-		min-height: 100vh;
-		position: fixed;
-		top: 0;
-		left: 0;
-		right: 0;
-
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		text-align: center;
-		transition: .5s ease-out all;
-	}
 
 	#cuenta {
 		display: flex;
