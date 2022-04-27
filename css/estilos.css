@@ -10,7 +10,6 @@
 .divimgbtn {
 	display: flex;
 	align-items: center;
-	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
@@ -95,7 +94,8 @@ input:checked+.slider:before {
 	border-radius: 50%;
 	animation: menor 25s infinite linear;
 	box-shadow: 0px 0px 10px black;
-	margin: 50px;
+	margin-left: 25px;
+	margin-right: 25px;
 
 }
 
@@ -116,7 +116,8 @@ input:checked+.slider:before {
 	border-radius: 50%;
 	animation: titac 25s infinite linear;
 	box-shadow: 0px 0px 10px black;
-	margin: 50px;
+	margin-left: 25px;
+	margin-right: 25px;
 
 }
 
@@ -136,7 +137,8 @@ input:checked+.slider:before {
 	border-radius: 50%;
 	animation: juicy 25s infinite linear;
 	box-shadow: 0px 0px 10px black;
-	margin: 50px;
+	margin-left: 25px;
+	margin-right: 25px;
 
 }
 
@@ -156,7 +158,8 @@ input:checked+.slider:before {
 	border-radius: 50%;
 	animation: mate 25s infinite linear;
 	box-shadow: 0px 0px 10px black;
-	margin: 50px;
+	margin-left: 25px;
+	margin-right: 25px;
 
 }
 
@@ -197,7 +200,7 @@ body {
 
 
 .portada .header {
-	margin-bottom: 80px;
+	margin-bottom: 10px;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 }
@@ -223,7 +226,7 @@ body {
 #cuenta {
 	display: flex;
 	justify-content: center;
-	margin-bottom: 100px;
+	margin-bottom: 60px;
 }
 
 .simply-section {
