@@ -275,7 +275,25 @@ body {
 		background-size: 100%;
 		background-position: center ;
 	}
-
+	.portada .header {
+		margin-bottom: 10px;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+	}
+	.mensaje {
+		color:#fff;
+		font-weight: 700;
+		font-size: 13px;
+	}
+	
+	.logotipo {
+		font-size: 40px;
+		font-size: 900;
+		background: linear-gradient(-110deg, red, rgb(246, 255, 0), red);
+		-webkit-text-fill-color: transparent;
+		-webkit-background-clip: text;
+		margin-bottom: 20px;
+	}
 
 	#cuenta {
 		display: flex;
@@ -472,5 +490,6 @@ body {
 		-webkit-transform: rotate(360deg);
 		transform: rotate(360deg);
 	}
+	
 
 }
