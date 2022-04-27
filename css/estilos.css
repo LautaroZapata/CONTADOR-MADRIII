@@ -194,7 +194,10 @@ body {
 	background-size: 100%;
 	background-position: center ;
 }
-
+.portada {
+	height: 100%;
+	width: 100%;
+}
 
 .portada .header {
 	margin-bottom: 10px;
@@ -266,6 +269,10 @@ body {
 
 @media (max-width:500px) {
 	body {
+		height: 100%;
+		width: 100%;
+	}
+	.portada {
 		height: 100%;
 		width: 100%;
 	}
