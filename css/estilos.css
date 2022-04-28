@@ -423,7 +423,7 @@ body {
 	animation: menor 25s infinite linear;
 	box-shadow: 0px 0px 10px black;
 	margin: 10px;
-	height: 85px;
+	height: 75px;
 }
 
 @keyframes menor {
@@ -444,7 +444,7 @@ body {
 	animation: titac 25s infinite linear;
 	box-shadow: 0px 0px 10px black;
 	margin: 10px;
-	height: 85px;
+	height: 75px;
 }
 
 @keyframes titac {
@@ -464,7 +464,7 @@ body {
 	animation: juicy 25s infinite linear;
 	box-shadow: 0px 0px 10px black;
 	margin: 10px;
-	height: 85px;
+	height: 75px;
 }
 
 @keyframes juicy {
@@ -484,7 +484,7 @@ body {
 	animation: mate 25s infinite linear;
 	box-shadow: 0px 0px 10px black;
 	margin: 10px;
-	height: 85px;
+	height: 75px;
 }
 
 @keyframes mate {
