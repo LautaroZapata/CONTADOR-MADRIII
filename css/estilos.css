@@ -7,10 +7,7 @@
 }
 
 /* ? ---------------------------- */
-.titacp {
-	color: #fff;
-	font-weight: 700;
-}
+
 /* BOTONES */
 .divimgbtn {
 	display: flex;
@@ -222,7 +219,10 @@ body {
 	margin-bottom: 20px;
 }
 
-
+.titacp {
+	color: #fff;
+	font-weight: 700;
+}
 
 /* ? ----- Cuenta Regresiva ----- */
 #cuenta {
