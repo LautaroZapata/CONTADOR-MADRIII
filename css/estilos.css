@@ -7,7 +7,10 @@
 }
 
 /* ? ---------------------------- */
-
+.titacp {
+	color: #fff;
+	font-weight: 700;
+}
 /* BOTONES */
 .divimgbtn {
 	display: flex;
