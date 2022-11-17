@@ -1,7 +1,7 @@
 simplyCountdown('#cuenta', {
 	year: 2022, // required
 	month: 12, // required
-	day: 2, // required
+	day: 3, // required
 	hours: 13, // Default is 0 [0-23] integer
 	minutes: 0, // Default is 0 [0-59] integer
 	seconds: 0, // Default is 0 [0-59] integer
@@ -19,6 +19,12 @@ simplyCountdown('#cuenta', {
 	enableUtc: false, //Use UTC as default
 	onEnd: function() {
 		document.getElementById('portada').classList.add('oculta');
+		let roadToSpain = document.getElementById('roadToSpain');
+		roadToSpain.innerHTML = "MODO VIAJERO ACTIVADO ";
+		let emoji = document.getElementById('lentes');
+		emoji.classList.remove('d-none')
+
+
 		return; 
 	}, //Callback on countdown end, put your own function here
 	refresh: 1000, // default refresh every 1s

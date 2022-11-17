@@ -186,7 +186,9 @@ body {
 }
 
 
-
+.h1NosFuimos {
+	font-size: 70px;
+}
 /* ? ----- PORTADA ----- */
 #portada {
 	background-image: url("../avion.PNG");
@@ -270,8 +272,10 @@ body {
 
 
 
-
 @media (max-width:500px) {
+	.h1NosFuimos {
+		font-size: 20px;
+	}
 	body {
 		height: 200vh;
 		width: 100%;
@@ -503,4 +507,9 @@ body {
 	}
 	
 
+}
+
+.divSpain {
+	height: 100vh;
+	width: 100vw;
 }
